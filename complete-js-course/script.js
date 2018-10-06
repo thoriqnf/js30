@@ -75,7 +75,7 @@ console.log(typeof ageJohn);
 console.log(typeof 'Thoriq master coding');
 
 var x;
-console.log(typeof x);
+console.log(typeof x) ;
 
 
 
