@@ -4,10 +4,6 @@
 4. Make variable name meaning full for better reusable
 5. Don't using number for variable
 6. Ada beberapa yang ga boleh di variable contohnya /
-<<<<<<< HEAD
 7. Tidak bisa pake syntax yang sudah di reserve oleh javascript
 Coercion = paksaan untuk perubahan dari data var biasa terus di tambahin jadi kalimat
 Variable mutation => variablenya udah ada nilainya lalu di ubah dengan variable baru
-=======
-7. Tidak bisa pake syntax yang sudah di reserve oleh javascript
->>>>>>> f58c5757a4462e63a6da075e1f5bbca784e034be
