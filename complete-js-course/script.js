@@ -201,8 +201,8 @@
 //    console.log(firstName + ' does something else.');
 //  }
 
-var firstName = 'John';
-var age = 10;
+// var firstName = 'John';
+// var age = 10;
 // if (age < 13) {
 //   console.log(firstName + ' is a boy.');
 // } else if (age >= 13 && age < 20){
@@ -213,13 +213,28 @@ var age = 10;
 //   console.log(firstName + ' is an adults.');
 // }
 
-switch (true) {
-  case age < 13:
-    console.log(firstName + ' is a boy.'); break;
-  case age >= 13 && age < 20:
-    console.log(firstName + ' is a teenger.'); break;
-  case age >= 20 && age < 30:
-    console.log(firstName + ' is a man.'); break;
-  default: 
-    console.log(firstName + ' is an adult.'); break;
+// switch (true) {
+//   case age < 13:
+//     console.log(firstName + ' is a boy.'); break;
+//   case age >= 13 && age < 20:
+//     console.log(firstName + ' is a teenger.'); break;
+//   case age >= 20 && age < 30:
+//     console.log(firstName + ' is a man.'); break;
+//   default: 
+//     console.log(firstName + ' is an adult.'); break;
+// }
+
+/**
+ * Truthy and Falsy values and equality operators
+ */
+
+ // falsy values: undefined, null, 0, '', NaN
+// Truthy values: Not falsy values
+
+var height;
+
+if (height) {
+  console.log('Variable is defined');
+} else {
+  console.log('Variable has NOT been defined');
 }
