@@ -258,22 +258,44 @@
 
 //buat function itung umur
 
-function ngitungUmur(tahunLahir){
-  return 2018 - tahunLahir;
-  console.log(tahun);
+// function ngitungUmur(tahunLahir){
+//   return 2018 - tahunLahir;
+//   console.log(tahun);
   
-}
+// }
 
-function ngitungPensiun (tahunLahir, nama){
-  var umur = ngitungUmur(tahunLahir);
-  var pensiun = 65 - umur;
+// function ngitungPensiun (tahunLahir, nama){
+//   var umur = ngitungUmur(tahunLahir);
+//   var pensiun = 65 - umur;
 
-  if (pensiun <= 0){
-    console.log('umurnya si ' + nama + ' ' + umur +  ' dia udah pensiun cuy');
-  } else {
-    console.log('umurnya si ' + nama + ' ' + umur + ' dia pensiun ' + pensiun + ' tahun lagi');
-  }
-}
+//   if (pensiun <= 0){
+//     console.log('umurnya si ' + nama + ' ' + umur +  ' dia udah pensiun cuy');
+//   } else {
+//     console.log('umurnya si ' + nama + ' ' + umur + ' dia pensiun ' + pensiun + ' tahun lagi');
+//   }
+// }
 
-ngitungPensiun(1990, 'toyik');
-ngitungPensiun(1940, 'toyik tua');
+// ngitungPensiun(1990, 'toyik');
+// ngitungPensiun(1940, 'toyik tua');
+
+/**
+ * Function Statements and Expressions
+ */
+
+ // Function declaration
+ // function whatDoYouDo (job, firsName) {}
+
+ // Function expression
+
+ var opoKerjaMu = function (kerja, jenengmu){
+   switch (kerja){
+     case 'pelacur': 
+     return jenengmu + 'Kerjane ngewe';
+     case 'germo':
+     return jenengmu + 'Kerjane nyenengno'
+   }
+ }
+
+
+console.log(opoKerjaMu('pelacur', 'iffah'));
+ 

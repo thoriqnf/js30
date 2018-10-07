@@ -5,5 +5,6 @@
 5. Don't using number for variable
 6. Ada beberapa yang ga boleh di variable contohnya /
 7. Tidak bisa pake syntax yang sudah di reserve oleh javascript
-Coercion = paksaan untuk perubahan dari data var biasa terus di tambahin jadi kalimat
-Variable mutation => variablenya udah ada nilainya lalu di ubah dengan variable baru
+8. Coercion = paksaan untuk perubahan dari data var biasa terus di tambahin jadi kalimat
+9. Variable mutation => variablenya udah ada nilainya lalu di ubah dengan variable baru
+10. Return dari function itu not only return the value but it also finishes the function (ga perlu break)
