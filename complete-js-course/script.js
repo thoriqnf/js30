@@ -240,15 +240,40 @@
 // }
 
 // Coding challenge 2
-var scoreJohn = (89 + 120 + 103) / 3;
-var scoreMike = (116 + 94 + 123) / 3;
-var scoreMary = (97 + 134 + 105) / 3;
-console.log(scoreJohn , scoreMike, scoreMary );
+// var scoreJohn = (89 + 120 + 103) / 3;
+// var scoreMike = (116 + 94 + 123) / 3;
+// var scoreMary = (97 + 134 + 105) / 3;
+// console.log(scoreJohn , scoreMike, scoreMary );
 
-if (scoreJohn > scoreMike){
-  console.log('John\'s team wins with ' + scoreJohn + ' points');
-} else if (scoreMike > scoreJohn){
-  console.log('Mike\'s team wins with ' + scoreMike + ' points');
-} else {
-  console.log('There is a draw');
+// if (scoreJohn > scoreMike){
+//   console.log('John\'s team wins with ' + scoreJohn + ' points');
+// } else if (scoreMike > scoreJohn){
+//   console.log('Mike\'s team wins with ' + scoreMike + ' points');
+// } else {
+//   console.log('There is a draw');
+// }
+
+
+// function counting retirement
+
+//buat function itung umur
+
+function ngitungUmur(tahunLahir){
+  return 2018 - tahunLahir;
+  console.log(tahun);
+  
 }
+
+function ngitungPensiun (tahunLahir, nama){
+  var umur = ngitungUmur(tahunLahir);
+  var pensiun = 65 - umur;
+
+  if (pensiun <= 0){
+    console.log('umurnya si ' + nama + ' ' + umur +  ' dia udah pensiun cuy');
+  } else {
+    console.log('umurnya si ' + nama + ' ' + umur + ' dia pensiun ' + pensiun + ' tahun lagi');
+  }
+}
+
+ngitungPensiun(1990, 'toyik');
+ngitungPensiun(1940, 'toyik tua');
