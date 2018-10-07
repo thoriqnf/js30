@@ -50,32 +50,70 @@
   Basic operators
 */
 
-var year, yearJohn, yearMark
-now = 2018;
-ageJohn = 28;
-ageMark = 33;
+// var year, yearJohn, yearMark
+// now = 2018;
+// ageJohn = 28;
+// ageMark = 33;
 
-// Math operators
-yearJohn = now - ageJohn;
-yearMark = now - ageMark;
+// // Math operators
+// yearJohn = now - ageJohn;
+// yearMark = now - ageMark;
 
-console.log(yearJohn);
+// console.log(yearJohn);
 
-console.log(now + 2);
-console.log(now * 2);
-console.log(now / 10);
+// console.log(now + 2);
+// console.log(now * 2);
+// console.log(now / 10);
 
-// Logical operators
+// // Logical operators
 
-var johnOlder = ageJohn > ageMark;
-console.log(johnOlder)
+// var johnOlder = ageJohn > ageMark;
+// console.log(johnOlder)
 
-console.log(typeof johnOlder);
-console.log(typeof ageJohn);
-console.log(typeof 'Thoriq master coding');
+// console.log(typeof johnOlder);
+// console.log(typeof ageJohn);
+// console.log(typeof 'Thoriq master coding');
 
-var x;
-console.log(typeof x) ;
+// var x;
+// console.log(typeof x) ;
 
+/**
+ * Operator precendence
+ */
 
+ // Precedence = Urutan
 
+var now = 2018;
+var yearJohn = 1989;
+var fullAge  = 18;
+
+// Multiplr operators
+var isFullAge = now - yearJohn >= fullAge;
+console.log(isFullAge);
+
+// Grouping
+var ageJohn = now - yearJohn;
+var ageMark = 35;
+var average = (ageJohn + ageMark) / 2;
+
+console.log(average);
+
+// Multiple Assignments
+var x, y;
+x = y = (3 + 5 ) * 4 -6; // 8 * 4 - 6 // 32- 6 // 26 
+
+console.log(x, y);
+
+// 2 + 4 + 5 >> Left to Right
+
+// More operators
+x *= 2;
+console.log(x);
+x += 10;
+console.log(x);
+
+// x = x + 1;
+// x += 1;
+x++
+// All Same above
+console.log(x);
