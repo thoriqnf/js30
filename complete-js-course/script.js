@@ -121,40 +121,56 @@
 
 // Coding Challenge 1
 
-var massMark = 78; // KG
-var heightMark = 1.69; // Meters
+// var massMark = 78; // KG
+// var heightMark = 1.69; // Meters
 
-var massJohn = 92;
-var heightJohn = 1.95; // Meters
+// var massJohn = 92;
+// var heightJohn = 1.95; // Meters
 
-var BMIMark = massMark / (heightMark * heightMark);
-var BMIJohn = massJohn / (heightJohn * heightJohn);
-console.log(BMIMark, BMIJohn);
+// var BMIMark = massMark / (heightMark * heightMark);
+// var BMIJohn = massJohn / (heightJohn * heightJohn);
+// console.log(BMIMark, BMIJohn);
 
-var markHigherBMI = BMIMark > BMIJohn ;
+// var markHigherBMI = BMIMark > BMIJohn ;
 
-if (BMIMark > BMIJohn) {
-  console.log('BMI Mark is higher than John\'s');
-} else {
-  console.log('BMI John is higher than Mark\'s');
-}
+// if (BMIMark > BMIJohn) {
+//   console.log('BMI Mark is higher than John\'s');
+// } else {
+//   console.log('BMI John is higher than Mark\'s');
+// }
 /**
  * If / else statements
  */
 
- var firstName = 'John';
- var civilStatus = 'single';
+// var firstName = 'John';
+// var civilStatus = 'single';
 
- if (civilStatus === 'married'){
-   console.log(firstName + ' is married!');
- } else {
-   console.log(firstName + ' will hopefully marry soon :)');
- }
+//  if (civilStatus === 'married'){
+//    console.log(firstName + ' is married!');
+//  } else {
+//    console.log(firstName + ' will hopefully marry soon :)');
+//  }
 
-var isMarried = true;
+// var isMarried = true;
 
-if (isMarried) {
-  console.log(firstName + ' is married!');
-} else {
-  console.log(firstName + ' will hopefully marry soon :)');
+// if (isMarried) {
+//   console.log(firstName + ' is married!');
+// } else {
+//   console.log(firstName + ' will hopefully marry soon :)');
+// }
+
+/**
+ * Boolena logic
+ */
+
+var firstName = 'John';
+var age = 20;
+if (age < 13) {
+  console.log(firstName + ' is a boy.');
+} else if (age >= 13 && age < 20){
+  console.log(firstName + ' is a teenager.');
+} else if (age >= 20 && age < 30) {
+  console.log(firstName + ' is a man.');
+}else{
+  console.log(firstName + ' is an adults.');
 }
