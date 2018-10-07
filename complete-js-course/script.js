@@ -163,14 +163,63 @@
  * Boolena logic
  */
 
+// var firstName = 'John';
+// var age = 20;
+// if (age < 13) {
+//   console.log(firstName + ' is a boy.');
+// } else if (age >= 13 && age < 20){
+//   console.log(firstName + ' is a teenager.');
+// } else if (age >= 20 && age < 30) {
+//   console.log(firstName + ' is a man.');
+// }else{
+//   console.log(firstName + ' is an adults.');
+// }
+
+/**
+ * The Ternary Operator and Switch Statements
+ */
+
+//  var firstName = 'John';
+//  var age = 16;
+
+//  age >= 18 ? console.log(firstName + ' drinks beer.')
+//  : console.log(firstName + ' drinks juice.');
+ 
+//  var drink = age >= 18 ? 'beer' : 'juice';
+//  console.log(drink);
+ 
+ // Switch statement
+//  var job = 'teacher';
+//  switch (job) {
+//   case 'teacher':
+//       console.log(firstName + ' teaches kids how to code.');
+//   case 'driver':
+//     console.log(firstName + ' drives an uber in Lisbon');
+//   case 'designer':
+//     console.log(firstName + ' designs beautiful websites.');
+//   default: 
+//    console.log(firstName + ' does something else.');
+//  }
+
 var firstName = 'John';
-var age = 20;
-if (age < 13) {
-  console.log(firstName + ' is a boy.');
-} else if (age >= 13 && age < 20){
-  console.log(firstName + ' is a teenager.');
-} else if (age >= 20 && age < 30) {
-  console.log(firstName + ' is a man.');
-}else{
-  console.log(firstName + ' is an adults.');
+var age = 10;
+// if (age < 13) {
+//   console.log(firstName + ' is a boy.');
+// } else if (age >= 13 && age < 20){
+//   console.log(firstName + ' is a teenager.');
+// } else if (age >= 20 && age < 30) {
+//   console.log(firstName + ' is a man.');
+// }else{
+//   console.log(firstName + ' is an adults.');
+// }
+
+switch (true) {
+  case age < 13:
+    console.log(firstName + ' is a boy.'); break;
+  case age >= 13 && age < 20:
+    console.log(firstName + ' is a teenger.'); break;
+  case age >= 20 && age < 30:
+    console.log(firstName + ' is a man.'); break;
+  default: 
+    console.log(firstName + ' is an adult.'); break;
 }
