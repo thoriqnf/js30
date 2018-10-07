@@ -81,39 +81,55 @@
  * Operator precendence
  */
 
- // Precedence = Urutan
+//  // Precedence = Urutan
 
-var now = 2018;
-var yearJohn = 1989;
-var fullAge  = 18;
+// var now = 2018;
+// var yearJohn = 1989;
+// var fullAge  = 18;
 
-// Multiplr operators
-var isFullAge = now - yearJohn >= fullAge;
-console.log(isFullAge);
+// // Multiplr operators
+// var isFullAge = now - yearJohn >= fullAge;
+// console.log(isFullAge);
 
-// Grouping
-var ageJohn = now - yearJohn;
-var ageMark = 35;
-var average = (ageJohn + ageMark) / 2;
+// // Grouping
+// var ageJohn = now - yearJohn;
+// var ageMark = 35;
+// var average = (ageJohn + ageMark) / 2;
 
-console.log(average);
+// console.log(average);
 
-// Multiple Assignments
-var x, y;
-x = y = (3 + 5 ) * 4 -6; // 8 * 4 - 6 // 32- 6 // 26 
+// // Multiple Assignments
+// var x, y;
+// x = y = (3 + 5 ) * 4 -6; // 8 * 4 - 6 // 32- 6 // 26 
 
-console.log(x, y);
+// console.log(x, y);
 
-// 2 + 4 + 5 >> Left to Right
+// // 2 + 4 + 5 >> Left to Right
 
-// More operators
-x *= 2;
-console.log(x);
-x += 10;
-console.log(x);
+// // More operators
+// x *= 2;
+// console.log(x);
+// x += 10;
+// console.log(x);
 
-// x = x + 1;
-// x += 1;
-x++
-// All Same above
-console.log(x);
+// // x = x + 1;
+// // x += 1;
+// x++
+// // All Same above
+// console.log(x);
+
+
+// Coding Challenge 1
+
+var massMark = 78; // KG
+var heightMark = 1.69; // Meters
+
+var massJohn = 92;
+var heightJohn = 1.95; // Meters
+
+var BMIMark = massMark / (heightMark * heightMark);
+var BMIJohn = massJohn / (heightJohn * heightJohn);
+console.log(BMIMark, BMIJohn);
+
+var markHigherBMI = BMIMark > BMIJohn ;
+console.log('Is Mark\'s higher thank John\'s? ' + markHigherBMI);
