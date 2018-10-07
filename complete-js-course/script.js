@@ -132,4 +132,29 @@ var BMIJohn = massJohn / (heightJohn * heightJohn);
 console.log(BMIMark, BMIJohn);
 
 var markHigherBMI = BMIMark > BMIJohn ;
-console.log('Is Mark\'s higher thank John\'s? ' + markHigherBMI);
+
+if (BMIMark > BMIJohn) {
+  console.log('BMI Mark is higher than John\'s');
+} else {
+  console.log('BMI John is higher than Mark\'s');
+}
+/**
+ * If / else statements
+ */
+
+ var firstName = 'John';
+ var civilStatus = 'single';
+
+ if (civilStatus === 'married'){
+   console.log(firstName + ' is married!');
+ } else {
+   console.log(firstName + ' will hopefully marry soon :)');
+ }
+
+var isMarried = true;
+
+if (isMarried) {
+  console.log(firstName + ' is married!');
+} else {
+  console.log(firstName + ' will hopefully marry soon :)');
+}
