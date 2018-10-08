@@ -350,25 +350,49 @@
  * Objects and properties
  */
 
+  // var john = {
+  //   firstName: 'John',
+  //   lastName: 'Smith',
+  //   birthYear: 1990,
+  //   family: ['Ucup', 'Sandi', 'Uno'],
+  //   job: 'Pelacur',
+  //   isMarried: false
+  // };
+
+  // console.log(john.firstName);
+  // var x = 'family';
+  // console.log(john[x]);
+  
+  // john.job = 'Germo';
+  // console.log(john.job);
+  
+  // john.isMarried = true;
+  // console.log(john.isMarried);
+  
+  // john['isMarried'] = false;
+  // console.log(john.isMarried);
+  
+  /**
+   * Object and methods
+   */
+
   var john = {
     firstName: 'John',
     lastName: 'Smith',
     birthYear: 1990,
     family: ['Ucup', 'Sandi', 'Uno'],
     job: 'Pelacur',
-    isMarried: false
+    yearNow: 2019,
+    isMarried: false,
+    calcAge: function(){
+      this.age = this.yearNow - this.birthYear;
+    }
   };
 
-  console.log(john.firstName);
-  var x = 'family';
-  console.log(john[x]);
-  
-  john.job = 'Germo';
-  console.log(john.job);
-  
-  john.isMarried = true;
-  console.log(john.isMarried);
-  
-  john['isMarried'] = false;
-  console.log(john.isMarried);
+  // console.log(john.calcAge());
+  // john.age = john.calcAge();
+
+
+  // john.calcAge();
+  console.log(john);
   
