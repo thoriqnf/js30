@@ -346,3 +346,29 @@
 // console.log(tips);
 // console.log(finalNilai);
 
+/**
+ * Objects and properties
+ */
+
+  var john = {
+    firstName: 'John',
+    lastName: 'Smith',
+    birthYear: 1990,
+    family: ['Ucup', 'Sandi', 'Uno'],
+    job: 'Pelacur',
+    isMarried: false
+  };
+
+  console.log(john.firstName);
+  var x = 'family';
+  console.log(john[x]);
+  
+  john.job = 'Germo';
+  console.log(john.job);
+  
+  john.isMarried = true;
+  console.log(john.isMarried);
+  
+  john['isMarried'] = false;
+  console.log(john.isMarried);
+  
