@@ -304,16 +304,45 @@
  * Array
  */
 
-var john = ['jono', 'lono', 1995, true];
+// var john = ['jono', 'lono', 1995, true];
 
-john.push('blue'); // Naroh paling belakang
-john.unshift('koplak') // Naroh paling depan
-john.pop(); //Ngilangin yang paling belakang
-john.shift(); // Ngilangin yang paling depan
+// john.push('blue'); // Naroh paling belakang
+// john.unshift('koplak') // Naroh paling depan
+// john.pop(); //Ngilangin yang paling belakang
+// john.shift(); // Ngilangin yang paling depan
 
-console.log(john);
-console.log(john.indexOf(1990)); // indexOf buat ngitung dimana posisi array, dimulai dari 0 dan kalo ga ada akan di minuskan
+// console.log(john);
+// console.log(john.indexOf(1990)); // indexOf buat ngitung dimana posisi array, dimulai dari 0 dan kalo ga ada akan di minuskan
 
 
-var tesDesigner = john.indexOf('lono') === -1 ? 'Jono bukan designer' : 'Jono seorang designer';
-console.log(tesDesigner);
+// var tesDesigner = john.indexOf('lono') === -1 ? 'Jono bukan designer' : 'Jono seorang designer';
+// console.log(tesDesigner);
+
+
+// Coding challenge 3
+// function tripCalculator(bill) {
+//   var percentage;
+//   if (bill < 50){
+//     percentage = .2;
+//   } else if (bill >= 50 && bill < 200){
+//     percentage = .15;
+//   } else {
+//     percentage = .1;
+//   }
+//   return percentage * bill;
+// }
+
+// // console.log(tripCalculator(100));
+
+// var bills = [124, 48, 268];
+
+// var tips = [tripCalculator(bills[0]),
+//             tripCalculator(bills[1]),
+//             tripCalculator(bills[2])];
+
+// var finalNilai = [bills[0] + tips[0],
+//                   bills[1] + tips[1],
+//                   bills[2] + tips[2]]
+// console.log(tips);
+// console.log(finalNilai);
+
