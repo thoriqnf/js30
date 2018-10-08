@@ -287,15 +287,33 @@
 
  // Function expression
 
- var opoKerjaMu = function (kerja, jenengmu){
-   switch (kerja){
-     case 'pelacur': 
-     return jenengmu + 'Kerjane ngewe';
-     case 'germo':
-     return jenengmu + 'Kerjane nyenengno'
-   }
- }
+//  var opoKerjaMu = function (kerja, jenengmu){
+//    switch (kerja){
+//      case 'pelacur': 
+//      return jenengmu + 'Kerjane ngewe';
+//      case 'germo':
+//      return jenengmu + 'Kerjane nyenengno'
+//    }
+//  }
 
 
-console.log(opoKerjaMu('pelacur', 'iffah'));
+// console.log(opoKerjaMu('pelacur', 'iffah'));
  
+
+/**
+ * Array
+ */
+
+var john = ['jono', 'lono', 1995, true];
+
+john.push('blue'); // Naroh paling belakang
+john.unshift('koplak') // Naroh paling depan
+john.pop(); //Ngilangin yang paling belakang
+john.shift(); // Ngilangin yang paling depan
+
+console.log(john);
+console.log(john.indexOf(1990)); // indexOf buat ngitung dimana posisi array, dimulai dari 0 dan kalo ga ada akan di minuskan
+
+
+var tesDesigner = john.indexOf('lono') === -1 ? 'Jono bukan designer' : 'Jono seorang designer';
+console.log(tesDesigner);

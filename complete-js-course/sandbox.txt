@@ -8,3 +8,6 @@
 8. Coercion = paksaan untuk perubahan dari data var biasa terus di tambahin jadi kalimat
 9. Variable mutation => variablenya udah ada nilainya lalu di ubah dengan variable baru
 10. Return dari function itu not only return the value but it also finishes the function (ga perlu break)
+11. Expected as a value = function expression, even produce single value
+12. function statement = declaration 
+Just perform actions, but don't expect immediate results
