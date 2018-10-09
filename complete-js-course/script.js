@@ -376,23 +376,56 @@
    * Object and methods
    */
 
-  var john = {
-    firstName: 'John',
-    lastName: 'Smith',
-    birthYear: 1990,
-    family: ['Ucup', 'Sandi', 'Uno'],
-    job: 'Pelacur',
-    yearNow: 2019,
-    isMarried: false,
-    calcAge: function(){
-      this.age = this.yearNow - this.birthYear;
-    }
-  };
+  // var john = {
+  //   firstName: 'John',
+  //   lastName: 'Smith',
+  //   birthYear: 1990,
+  //   family: ['Ucup', 'Sandi', 'Uno'],
+  //   job: 'Pelacur',
+  //   yearNow: 2019,
+  //   isMarried: false,
+  //   calcAge: function(){
+  //     this.age = this.yearNow - this.birthYear;
+  //   }
+  // };
 
-  // console.log(john.calcAge());
-  // john.age = john.calcAge();
+  // // console.log(john.calcAge());
+  // // john.age = john.calcAge();
 
 
-  // john.calcAge();
-  console.log(john);
+  // // john.calcAge();
+  // console.log(john);
   
+
+  // Coding Challenge 4
+
+  var jono = {
+    fullName: 'Jono Lono',
+    mass: 92,
+    height:1.95,
+    calcBMI: function(){
+      this.bmi = this.mass / (this.height * this.height);
+      return this.bmi;
+    }
+  }
+
+  var bono = {
+    fullName: 'Bono Lono',
+    mass: 105,
+    height: 1.75,
+    calcBMI: function () {
+      this.bmi = this.mass / (this.height * this.height);
+      return this.bmi;
+    }
+  }
+
+
+  jono.calcBMI(); bono.calcBMI();
+  console.log(jono, bono);
+  
+
+  if (jono.bmi > bono.bmi){
+    console.log(jono.fullName + 'BMI jono lebih besar dari ' + bono.fullName);
+  } else {
+    console.log(bono.fullName + 'BMI jono lebih besar dari ' + jono.fullName);
+  }
