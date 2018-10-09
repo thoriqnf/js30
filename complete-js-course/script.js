@@ -399,33 +399,82 @@
 
   // Coding Challenge 4
 
-  var jono = {
-    fullName: 'Jono Lono',
-    mass: 92,
-    height:1.95,
-    calcBMI: function(){
-      this.bmi = this.mass / (this.height * this.height);
-      return this.bmi;
-    }
-  }
+  // var jono = {
+  //   fullName: 'Jono Lono',
+  //   mass: 92,
+  //   height:1.95,
+  //   calcBMI: function(){
+  //     this.bmi = this.mass / (this.height * this.height);
+  //     return this.bmi;
+  //   }
+  // }
 
-  var bono = {
-    fullName: 'Bono Lono',
-    mass: 105,
-    height: 1.75,
-    calcBMI: function () {
-      this.bmi = this.mass / (this.height * this.height);
-      return this.bmi;
-    }
-  }
+  // var bono = {
+  //   fullName: 'Bono Lono',
+  //   mass: 105,
+  //   height: 1.75,
+  //   calcBMI: function () {
+  //     this.bmi = this.mass / (this.height * this.height);
+  //     return this.bmi;
+  //   }
+  // }
 
 
-  jono.calcBMI(); bono.calcBMI();
-  console.log(jono, bono);
+  // jono.calcBMI(); bono.calcBMI();
+  // console.log(jono, bono);
   
 
-  if (jono.bmi > bono.bmi){
-    console.log(jono.fullName + 'BMI jono lebih besar dari ' + bono.fullName);
-  } else {
-    console.log(bono.fullName + 'BMI jono lebih besar dari ' + jono.fullName);
-  }
+  // if (jono.bmi > bono.bmi){
+  //   console.log(jono.fullName + 'BMI jono lebih besar dari ' + bono.fullName);
+  // } else {
+  //   console.log(bono.fullName + 'BMI jono lebih besar dari ' + jono.fullName);
+  // }
+
+  /**
+   * Loop and iteration
+   */
+
+// For loop
+  // for (var i = 1; i < 20; i+=2 ){
+  //   console.log(i);
+    
+  // }
+  
+  // var john = ['John', 'Smith', 1990, 'designer', false];
+
+  // for (var i = 0; i < john.length; i++){
+  //   console.log(john[i]);
+  // }
+
+// While loop
+
+// var i = 0;
+// while(i < john.length){
+//   console.log(john[i]);
+//   i++;
+// }
+
+// Continue and break statements
+
+// var john = ['John', 'Smith', 1990, 'designer', false, 'blue'];
+
+// for (var i = 0; i < john.length; i++){
+//   if (typeof john[i] !== 'string') {
+//     continue; 
+//   }
+//   console.log(john[i]);
+// }
+
+
+// for (var i = 0; i < john.length; i++) {
+//   if (typeof john[i] !== 'string') {
+//     break;
+//   }
+//   console.log(john[i]);
+// }
+
+// Looping backwards
+// for (var i = john.length -1; i >= 0; i--){
+//   console.log(john[i]);
+  
+// }
