@@ -476,5 +476,5 @@
 // Looping backwards
 // for (var i = john.length -1; i >= 0; i--){
 //   console.log(john[i]);
-  
 // }
+
