@@ -8,3 +8,9 @@ many data means more runtime, but depands on CPU
 Great code means can measure our perfomance along with our more data 
 
 big o is how to explain algorithmic efficiency
+
+
+// 0(n) --> Linear Time
+
+// Dictionary
+Linear means segaris lurus
