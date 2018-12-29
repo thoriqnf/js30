@@ -1,4 +1,5 @@
 const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   mode: 'production',
@@ -18,7 +19,10 @@ module.exports = {
         }
       }
     ]
-  }
+  },
+  plugins: [new HtmlWebpackPlugin({
+    template: './src/index.html'
+  })]
 }
 //mode development yang normal ada spacing bisa di baca
 //mode production itu yang sudah tanpa space dan di minify
