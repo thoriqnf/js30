@@ -15,4 +15,3 @@ module.exports = merge(baseConfig, {
   }
 })
 
-//webpack-bundle-analyzer tujuannya buat heatmap tau ukuran size filenya berapa aja
