@@ -11,3 +11,5 @@
   - Webpack build analyzer
   - External CDN
 8. Polyfill
+9. Jest
+10. Adding setup babel using .babelrc
