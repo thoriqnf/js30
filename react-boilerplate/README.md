@@ -6,10 +6,14 @@
 4. Hot Reloader
 5. Source map
 6. Dev mode feature
-  - React from NPM
+
+- React from NPM
+
 7. Production build feature
-  - Webpack build analyzer
-  - External CDN
+
+- Webpack build analyzer
+- External CDN
+
 8. Polyfill
-9. Jest
-10. Adding setup babel using .babelrc
+9. Jest with testSetup
+10. Adding setup babel using .babelrc to testing jest

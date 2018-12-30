@@ -4,6 +4,6 @@ import App from './App';
 
 describe('App', () => {
   it('Render without error', () => {
-    render(<App />)
-  })
-})
+    render(<App />);
+  });
+});
