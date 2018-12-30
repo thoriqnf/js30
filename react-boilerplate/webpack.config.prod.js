@@ -8,7 +8,11 @@ module.exports = merge(baseConfig, {
     analyzerMode: 'static',
     openAnalyzer: false,
     reportFilename: 'bundle_size.html'
-  })]
+  })],
+  externals: {
+    react: 'React',
+    'react-dom': 'ReactDOM'
+  }
 })
 
 //webpack-bundle-analyzer tujuannya buat heatmap tau ukuran size filenya berapa aja
