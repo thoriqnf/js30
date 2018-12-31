@@ -17,3 +17,4 @@
 8. Polyfill
 9. Jest with testSetup
 10. Adding setup babel using .babelrc to testing jest
+11. Prettier
