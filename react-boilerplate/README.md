@@ -18,3 +18,5 @@
 9. Jest with testSetup
 10. Adding setup babel using .babelrc to testing jest
 11. Prettier
+12. Eslint + jsx-a11y
+13. Husky
