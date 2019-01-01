@@ -1,7 +1,7 @@
 {
   "name": "react-boilerplate",
   "version": "0.1.0",
-  "description": "",
+  "description": "1. React boilerplate with webpack essential need 2. Babel, proposed js 3. CSS (css-loader, style-loader) 4. Hot Reloader 5. Source map 6. Dev mode feature",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.prod.js",
@@ -56,5 +56,13 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-hot-loader": "^4.6.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thoriqnf/reactBoilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thoriqnf/reactBoilerplate/issues"
+  },
+  "homepage": "https://github.com/thoriqnf/reactBoilerplate#readme"
 }

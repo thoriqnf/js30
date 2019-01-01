@@ -22,3 +22,11 @@
 13. Husky
 14. React Strict mode
 15. Error boundary
+16. React Axe
+
+how to clone depencies
+
+git clone --depth=1 https://github.com/thoriqnf/reactBoilerplate.git <your foldername>
+
+Delete my git access
+Init your new git and remote to your repo
