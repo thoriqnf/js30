@@ -1,12 +1,12 @@
-import React from 'react';
-import { hot } from 'react-hot-loader';
+import React from 'react'
+import { hot } from 'react-hot-loader'
 class App extends React.Component {
   state = {
     count: 0
   };
 
   render() {
-    const { count } = this.state;
+    const { count } = this.state
     return (
       <div>
         <h1>Hello World!!!!!!</h1>
@@ -22,8 +22,8 @@ class App extends React.Component {
           -
         </button>
       </div>
-    );
+    )
   }
 }
 
-export default hot(module)(App);
+export default hot(module)(App)
