@@ -20,3 +20,5 @@
 11. Prettier
 12. Eslint + jsx-a11y
 13. Husky
+14. React Strict mode
+15. Error boundary
